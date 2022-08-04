@@ -119,12 +119,11 @@
 
 <style>
   .hero.is-info {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('/background.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-size: inherit;
+    background-image: url(https://halborn.com/wp-content/uploads/2021/10/halborn-knocked-out.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: black;
   }
   .hero .subtitle {
     padding: 3rem 0;
@@ -133,4 +132,11 @@
   .box {
     border-radius: 19px;
   }
+
+  .button.is-primary {
+    background-color: #68de00;
+    border-color: transparent;
+    color: #fff;
+}
+
 </style>
